@@ -1,7 +1,28 @@
-# DGAT
+# DGAT: Dual-Path Global Awareness Transformer for Optical Chemical Structure Recognition
 
-🚧 **Code Coming Soon...** 🚧
+> **Project Status:** *Under peer review*  
+> **Citation:** Please cite our forthcoming paper if you use or extend this work.
 
-Thank you for your interest in this project! The source code will be made publicly available upon acceptance of the manuscript.
+---
 
-Stay tuned and feel free to ⭐ star this repository to get notified when it's ready!
+## Dataset Preparation
+1. **Convert SMILES to SELFIES** with the [`SELFIES`](https://github.com/aspuru-guzik-group/selfies) library.  
+2. **Generate 2-D structure images** using **CDK** (the required JAR is bundled in this repo).  
+3. **Create JSON splits** (`train`, `val`, `test`) following the schema provided in `example/`.
+
+---
+
+
+## Minimal Example
+Point the data path to `example/`, then run:
+```bash
+python main.py
+```  
+---
+
+
+## Full Training
+(Optional) adjust hyper-parameters in the provided source files
+```bash
+python main.py
+```  
