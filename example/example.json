@@ -1,0 +1,62 @@
+{
+  "train": [
+    {
+      "id": "1_1",
+      "report": "C C C N C C N Branch1 Branch1 C C C O C C Ring1 #Branch2 C",
+      "image_path": ["example/1_1.png"],
+      "split": "train"
+    },
+    {
+      "id": "1_2",
+      "report": "C C C N C C N Branch1 Branch1 C C C O C C Ring1 #Branch2 C",
+      "image_path": ["example/1_2.png"],
+      "split": "train"
+    },
+    {
+      "id": "1_3",
+      "report": "C C C N C C N Branch1 Branch1 C C C O C C Ring1 #Branch2 C",
+      "image_path": ["example/1_3.png"],
+      "split": "train"
+    },
+    {
+      "id": "2_1",
+      "report": "C C N C =Branch1 C =O N C Branch1 =Branch1 C S C S C C =Branch1 C =O O C",
+      "image_path": ["example/2_1.png"],
+      "split": "train"
+    },
+    {
+      "id": "2_2",
+      "report": "C C N C =Branch1 C =O N C Branch1 =Branch1 C S C S C C =Branch1 C =O O C",
+      "image_path": ["example/2_2.png"],
+      "split": "train"
+    },
+    {
+      "id": "2_3",
+      "report": "C C N C =Branch1 C =O N C Branch1 =Branch1 C S C S C C =Branch1 C =O O C",
+      "image_path": ["example/2_3.png"],
+      "split": "train"
+    }
+  ],
+  "val": [
+    {
+      "id": "3_1",
+      "report": "C C C O C =Branch1 C =S S",
+      "image_path": ["example/3_1.png"],
+      "split": "val"
+    },
+    {
+      "id": "3_2",
+      "report": "C C C O C =Branch1 C =S S",
+      "image_path": ["example/3_2.png"],
+      "split": "val"
+    }
+  ],
+  "test": [
+    {
+      "id": "3_3",
+      "report": "C C C O C =Branch1 C =S S",
+      "image_path": ["example/3_3.png"],
+      "split": "test"
+    }
+  ]
+}
